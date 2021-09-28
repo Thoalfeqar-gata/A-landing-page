@@ -1,0 +1,89 @@
+body
+{
+    margin : 0px;
+}
+
+a
+{
+    text-decoration : none;
+    color : #e5e7eb;
+}
+
+.main-flex-container
+{
+    display : flex;
+    flex-direction : column;
+    padding : 0px;
+}
+
+.intro
+{
+    background-color : #1f2937;
+    padding : 0 72px 72px 128px;
+}
+
+.header
+{
+    display : flex;
+    justify-content : space-between;
+    margin : 0px;
+    margin-bottom : 24px;
+}
+
+.header h2
+{
+    color : #faf9f8;
+    font-size : 24px;
+}
+
+.header ul
+{
+    display : flex;
+    gap : 8px;
+    align-items : center;
+    list-style-type : none;
+    color : #e5e7eb;
+    font-size : 18px;
+    margin : 0px;
+    padding : 0px;
+}
+
+.welcome 
+{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+
+}
+
+.welcome .left-elements
+{
+    display : flex;
+    flex-direction : column;
+    gap : 10px;
+}
+.welcome .left-elements .main-text
+{
+    color : #f9faf8;
+    font-size : 48px;
+    font-weight : bolder;
+}
+
+.welcome .left-elements .secondary-text
+{
+    color : #e5e7eb;
+    font-size : 18px;
+}
+
+.welcome .left-elements .sign-up
+{
+    background-color : #3882f6;
+    border-radius : 5px;
+    border-color : #3882f6;
+    border-style: solid;
+    padding : 4px 16px;
+    align-self :flex-start;
+    color : #f9faf8;
+    font-size : 18px;
+    font-weight : bold;
+}
