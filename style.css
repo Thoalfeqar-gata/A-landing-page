@@ -19,7 +19,7 @@ a
 .intro
 {
     background-color : #1f2937;
-    padding : 0 72px 72px 128px;
+    padding : 0 100px 72px 100px;
 }
 
 .header
@@ -61,6 +61,7 @@ a
     display : flex;
     flex-direction : column;
     gap : 10px;
+    margin : 0 15px;
 }
 .welcome .left-elements .main-text
 {
@@ -87,3 +88,115 @@ a
     font-size : 18px;
     font-weight : bold;
 }
+
+.information
+{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    margin : 50px 0;
+}
+
+.information .information-cards
+{
+    display : flex;
+    justify-content : space-between;
+    flex-wrap : wrap;
+}
+
+.information img
+{
+    border : 5px solid lightblue;
+    border-radius : 10px;
+    max-width : 200px;
+}
+
+.second, .third, .fourth, .fifth
+{
+    max-width : 200px;
+    text-align: center;
+    margin : 20px;
+}
+
+.header-text
+{
+    color : #1f2973;
+    font-size : 36px;
+    font-weight : 1000;
+}
+
+.quote-section
+{
+    display :flex;
+    flex-direction : column;
+    justify-content : center;
+    padding : 100px 200px;
+    background-color : #e5e7eb;
+    font-size : 36px;
+    font-style : italic;
+}
+
+.quote-resource
+{
+    text-align : right;
+    padding-right : 20px;
+    font-weight : bold;
+    margin-top : 20px;
+}
+
+.call-to-action .wrapper
+{
+    display : flex;
+    justify-content : space-around;
+    align-items : center;
+    gap : 150px;
+    background-color : #3882f6;
+    border-radius : 10px;
+    padding : 50px 100px;
+}
+
+.call-to-action
+{
+    align-self : center;
+    padding : 100px 100px;
+}
+
+
+.call-to-action .wrapper .text h2, p
+{
+    margin : 0 25px;
+}
+
+.call-to-action .wrapper .text
+{
+    font-size : 20px;
+    color : #f9faf8;
+}
+
+.call-to-action .wrapper .text p
+{
+    color : #e5e7eb;
+}
+
+.wrapper .sign-up
+{
+    background-color : transparent;
+    border : 2px solid white;
+    color : #f9faf8;
+    font-size : 20px;
+    padding : 5px 25px;
+    border-radius : 5px;
+    margin : 0 25px;
+    white-space : nowrap;
+}
+
+
+.footer
+{
+    background-color : #1f2937;
+    padding : 50px 125px;
+    text-align : center;
+    color : #f9faf8;
+    font-size : 20px;
+}
+
