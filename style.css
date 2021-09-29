@@ -107,9 +107,14 @@ a
 .information .information-cards
 {
     display : flex;
-    font-size : 1.3em;
+    font-size : 1em;
     justify-content : space-between;
     flex-wrap : wrap;
+}
+
+.information .header-text
+{
+    text-align : center;
 }
 
 .information img
